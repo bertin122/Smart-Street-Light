@@ -6,6 +6,7 @@ export default function SmartLightWebpage() {
   return (
     <div className="flex flex-col min-h-screen">
       {/* Header/Navigation */}
+      <title> Street Light</title>
       <header className="bg-white py-2 px-4 flex justify-between items-center shadow-sm">
         <div className="flex items-center">
           <span className="text-blue-600 font-bold text-xl">SMART LIGHT</span>

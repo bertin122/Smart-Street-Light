@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-// import { Google } from "lucide-react";
 
 const SignupPage: React.FC = () => {
   const [name, setName] = useState("");
@@ -9,7 +8,7 @@ const SignupPage: React.FC = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // Add signup logic here
+
     console.log("Signup submitted", { name, email, password, agreedToTerms });
   };
 
@@ -84,7 +83,6 @@ const SignupPage: React.FC = () => {
             </div>
 
             <button className="w-full flex items-center justify-center border rounded-md py-2 hover:bg-gray-50 transition duration-300">
-              {/* <Google className="mr-2" /> */}
               Sign in with Google
             </button>
           </div>

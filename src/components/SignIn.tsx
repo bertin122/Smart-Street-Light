@@ -7,7 +7,6 @@ export default function LoginPage() {
   const [rememberMe, setRememberMe] = useState(false);
 
   const handleSubmit = () => {
-    // Add login logic here
     console.log("Login submitted", { email, password, rememberMe });
   };
 
